@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.mustangproject</groupId>
-        <artifactId>core</artifactId>
+        <groupId>com.github.hypfvieh</groupId>
+        <artifactId>mustang-core</artifactId>
         <version>2.14.0-SNAPSHOT</version>
     </parent>
 
@@ -21,8 +21,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.mustangproject</groupId>
-            <artifactId>validator</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>mustang-validator</artifactId>
             <version>${project.version}</version>
         </dependency>
         
@@ -60,14 +60,17 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>

@@ -3,13 +3,13 @@
 
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.mustangproject</groupId>
-        <artifactId>core</artifactId>
+        <groupId>com.github.hypfvieh</groupId>
+        <artifactId>mustang-core</artifactId>
         <version>2.14.0-SNAPSHOT</version>
     </parent>
-    <artifactId>library</artifactId>
+
+    <artifactId>mustang-library</artifactId>
     <packaging>jar</packaging>
-    
     <name>Mustang Library to r/w e-invoices</name>
     
     <description>
