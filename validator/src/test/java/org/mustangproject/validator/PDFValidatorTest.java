@@ -5,7 +5,7 @@ import java.io.File;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PDFValidatorTest extends ResourceCase {
+class PDFValidatorTest extends ResourceCase {
 	private static final Logger LOGGER = LoggerFactory.getLogger(ZUGFeRDValidator.class.getCanonicalName()); // log
 
 	public void testPDFPotentialA3SourceValidation() {

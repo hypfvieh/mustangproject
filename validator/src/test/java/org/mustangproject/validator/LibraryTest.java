@@ -1,13 +1,10 @@
 package org.mustangproject.validator;
 
-import java.io.File;
-
 import static org.xmlunit.assertj.XmlAssert.assertThat;
 
-import org.junit.jupiter.api.Disabled;
+import java.io.File;
 
-@Disabled("broken upstream")
-public class LibraryTest extends ResourceCase {
+class LibraryTest extends ResourceCase {
 
 	public void testLibraryPush() {
 		File tempFile = new File("../library/target/testout-MustangGnuaccountingBeispielRE-20201121_508.pdf");
